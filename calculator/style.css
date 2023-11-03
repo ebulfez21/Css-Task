@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin:40px 0 15px 0;
+}
+form input {
+  border: none;
+  width: 310px;
+  height: 60px;
+  font-size: 25px;
+  color: blue;
+  text-align: right;
+  border-radius: 10px;
+  border: 3px solid rgb(85, 255, 0);
+  background-color: burlywood;
+}
+form input:focus {
+  outline: none;
+}
+input::placeholder {
+  font-size: 32px;
+}
+.Container {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  border: 10px solid rgb(68, 253, 1);
+  align-items: center;
+  justify-content: center;
+  padding:10px 0 10px 10px;
+  background-color: black;
+  border-radius: 10px;
+}
+.calcContainer {
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.calc {
+  width: 70px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: 900;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calcContainer .calc:nth-child(16){
+  position: relative;
+  top: -30px;
+  height: 84px;
+  padding-top: 10px;
+  background-color: chocolate;
+}
+.calcContainer .calc:nth-child(4) {
+  height: 43px !important;
+
+}
+.calcContainer .calc:nth-child(8) {
+  height: 40px !important;
+  position: relative;
+  top: -10px;
+  
+}
+.calcContainer .calc:nth-child(12) {
+  height: 40px !important;
+  position: relative;
+  top: -20px;
+}
